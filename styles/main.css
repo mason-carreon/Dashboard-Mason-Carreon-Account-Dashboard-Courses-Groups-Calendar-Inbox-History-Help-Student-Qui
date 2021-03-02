@@ -1,0 +1,76 @@
+.nav {
+    text-align: Right;
+    text-transform: uppercase;
+    background-color: #150300; 
+}
+.nav li {
+  display: inline-block;
+  font-size: 15px;
+  padding: 20px;
+  text-align: Right;
+}
+
+
+header1{
+    background-color: #150300;
+}
+
+.nav a:link {
+    color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.nav a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.nav a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.theplace{
+    text-align: left;
+    position: absolute;
+    color: white;
+    text-decoration: underline;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1{
+    font-size: 40px;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2{
+    font-size: 30px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+p{
+    font-size: 35px;
+}
